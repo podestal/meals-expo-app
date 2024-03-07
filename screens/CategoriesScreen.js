@@ -1,5 +1,5 @@
 import {CATEGORIES} from '../data/data'
-import { FlatList } from 'react-native'
+import { FlatList, StyleSheet } from 'react-native'
 import CategoryGridTile from '../components/CategoryGridTile'
 
 const renderCategoryItem = (itemData) => {
